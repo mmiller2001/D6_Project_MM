@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void rollDice() {
-        int randomNumber = rng.nextInt(6) + 1;
+        int randomNumber = rng.nextInt(12) + 1;
 
         switch (randomNumber) {
             case 1:
@@ -47,6 +47,24 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case 6:
                 imageViewDice.setImageResource(R.drawable.dice6);
+                break;
+            case 7:
+                imageViewDice.setImageResource(R.drawable.dice7);
+                break;
+            case 8:
+                imageViewDice.setImageResource(R.drawable.dice8);
+                break;
+            case 9:
+                imageViewDice.setImageResource(R.drawable.dice9);
+                break;
+            case 10:
+                imageViewDice.setImageResource(R.drawable.dice10);
+                break;
+            case 11:
+                imageViewDice.setImageResource(R.drawable.dice11);
+                break;
+            case 12:
+                imageViewDice.setImageResource(R.drawable.dice12);
                 break;
         }
     }

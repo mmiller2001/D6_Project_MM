@@ -36,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
             case 1:
                 imageViewDice.setImageResource(R.drawable.dice1);
                 textView.setVisibility(View.VISIBLE);
+                textView.setText(R.string.criticalMiss);
                 break;
             case 2:
                 imageViewDice.setImageResource(R.drawable.dice2);
@@ -112,6 +113,7 @@ public class MainActivity extends AppCompatActivity {
             case 20:
                 imageViewDice.setImageResource(R.drawable.dice20);
                 textView.setVisibility(View.VISIBLE);
+                textView.setText(R.string.criticalHit);
                 break;
         }
     }
